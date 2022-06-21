@@ -209,7 +209,9 @@ a {
     color: $primay-color;
 
     &__title h2 {
-      font-size: 2rem;
+      font-size: 3rem;
+      line-height: 1;
+      font-style: italic;
     }
 
     &__text {
