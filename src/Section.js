@@ -8,7 +8,7 @@ import Phiphi from "./images/phiphi.jpeg";
 
 function Section() {
   return (
-    <div className="main">
+    <div>
       <section className="section">
         <div className="section__title">
           <h2 style={{ marginBottom: "10px" }}>Start Your Jorney</h2>
