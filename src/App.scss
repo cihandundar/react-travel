@@ -23,12 +23,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 130px;
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    right: 0;
-    color: $primay-color;
+    padding: 10px 80px;
+    color: #478ac9;
 
     &__logo {
       cursor: pointer;
