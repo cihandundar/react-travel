@@ -240,6 +240,10 @@ a {
 
 @media screen and (max-width: 768px) {
   .header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -281,6 +285,92 @@ a {
       top: 15px;
       right: 25px;
       transition: all 0.5s ease-out;
+    }
+  }
+
+  .hero {
+    &__title {
+      &__heading {
+        font-size: 2rem;
+      }
+      &__text {
+        width: auto;
+        padding: 0 35px;
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .section {
+    &__title {
+      h2 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    &__container {
+      &__col {
+        &__img {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    &__col {
+      &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      &__item {
+        margin-right: 0;
+      }
+      &__link {
+        margin-bottom: 20px;
+      }
+    }
+    &__right__col {
+      margin-top: 30px;
+      &__input {
+        display: flex;
+        flex-direction: column;
+        input {
+          width: 100%;
+        }
+      }
+      &__btn {
+        margin-top: 10px;
+        width: 100%;
+      }
+    }
+  }
+  .footer {
+    &__container {
+      &__title {
+        h2 {
+          font-size: 2rem;
+        }
+      }
+      &__text {
+        width: auto;
+        p {
+          font-size: 14px;
+          padding: 0 35px;
+        }
+      }
     }
   }
 }
